@@ -1,0 +1,76 @@
+body {
+    background-color: aliceblue;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-family: sans-serif;
+}
+
+article.review {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    border: white 3px solid;
+    background-color: white;
+    letter-spacing: 2px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h4 {
+    margin-bottom: 10px;
+}
+
+#job {
+    margin-bottom: 25px;
+    color: deepskyblue;
+    text-decoration: underline 3px;
+}
+
+article.review > p {
+    text-align: center;
+    font-size: 15px;
+    margin-top: -5px;
+}
+
+#person-img {
+    width: 100px;
+}
+
+.underline {
+    justify-self: center;
+    margin-top: -10px;
+    margin-bottom: 30px;
+    border-bottom: blue 5px solid;
+    width: 100px;
+}
+
+button {
+    outline: none;
+    background-color: transparent;
+    border: none;
+    font-size: 35px;
+    color: deepskyblue;
+    justify-items: center;
+}
+
+.prev-btn {
+    margin-right: 20px;
+}
+
+.random-btn {
+    font-size: medium;
+    margin-bottom: 20px;
+    border: deepskyblue solid 2px;
+    border-radius: 8px;
+}
